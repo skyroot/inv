@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="mobileoptimized" content="0"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="browsermode" content="application">
+    <link href="rs.css" rel=stylesheet>
+    <meta name="keywords" content="中国蓝 高粱红"/>
+    <meta name="description" content=" "/>
+    <title>中国蓝 高粱红</title>
+    <script>
+        window.dataForWeixin = {
+            picture : "http://www.cloud7.com.cn/app/zjs-rsh/icon.jpg",
+            url : location.href,
+            desc : " ",
+            title : document.title
+        };
+    </script>
+    <style>
+        #layout {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow: hidden;
+            background: black;
+        }
+
+        .page, .page-init {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow: hidden;
+        }
+
+        .page-init {
+            z-index: 10;
+        }
+
+        .lock {
+            pointer-events: none;
+        }
+
+        .page img.background {
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            -webkit-transform: translate3d(-50%, 0, 0);
+        }
+
+        .hide {
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+<div class="music-logo"></div>
+<audio loop src="music/background.mp3"></audio>
+<div class="page-loading">
+    <ul class="border">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+
+<div id="layout">
+
+    <div class="page page-one">
+        <img src="img/page1-feiji.png" class="page1-feiji">
+        <img src="img/page1-cloud1.png" class="page1-cloud1">
+        <img src="img/page1-cloud2.png" class="page1-cloud2">
+        <img src="img/page1-cloud3.png" class="page1-cloud3">
+        <img src="img/page1-rs.png" class="page1-rs">
+        <img src="img/page1-title.png" class="page1-title">
+        <img src="img/page1-leftrs.png" class="page1-leftrs">
+        <img src="img/page1-rightrs.png" class="page1-rightrs">
+        <img src="img/page7-logo.png" class="page1-logo">
+        <div class="arrow"></div>
+    </div>
+
+
+    <div class="page page-two">
+        <img src="img/bg.jpg" class="bg">
+        <img src="img/page2-people.jpg" class="page2-people">
+        <img src="img/page2-gaoliang.jpg" class="page2-gaoliang">
+        <img src="img/page2-word.png" class="page2-word">
+        <img src="img/page7-logo.png" class="page-logo">
+        <div class="arrow"></div>
+    </div>
+
+
+    <div class="page page-three">
+        <img src="img/page3-bg.jpg" class="page3-bg">
+        <img src="img/page3-my.png" class="page3-my">
+        <img src="img/page3-zxl.png" class="page3-zxl">
+        <img src="img/page7-logo.png" class="page-logo">
+        <div class="arrow"></div>
+    </div>
+
+    <div class="page page-four">
+        <img src="img/bg.jpg" class="bg">
+        <img src="img/page2-gaoliang.jpg" class="page4-gaoliang">
+        <img src="img/page4-title.png" class="page4-title">
+        <div class="page4-thumbnail">
+            <div class="scroll-content">
+            </div>
+        </div>
+        <div class="page4-arrow-left"></div>
+        <div class="page4-arrow-right"></div>
+        <img src="img/page7-logo.png" class="page-logo">
+        <div class="arrow"></div>
+    </div>
+
+    <div class="page page-five">
+        <img src="img/bg.jpg" class="bg">
+        <img src="img/page2-gaoliang.jpg" class="page2-gaoliang">
+        <img src="img/page7-logo.png" class="page-logo">
+        <div class="page5-pic"></div>
+        <div class="page4-arrow-left"></div>
+        <div class="page4-arrow-right"></div>
+        <img src="img/page5-title.png" class="page5-title">
+        <div class="arrow"></div>
+    </div>
+
+
+    <div class="page page-six">
+        <img src="img/bg.jpg" class="bg">
+        <img src="img/page2-gaoliang.jpg" class="page2-gaoliang">
+        <img src="img/page7-logo.png" class="page-logo">
+        <img src="img/page6-search.gif" class="page6-search">
+        <img src="img/page6-title.png" class="page6-title">
+        <div class="arrow"></div>
+    </div>
+
+
+    <div class="page page-seven">
+        <img src="img/page7-people.jpg" class="page7-people">
+        <div class="page7-info">
+            <img src="img/page7-word.png" class="page7-word">
+            <img src="img/page7-date.png" class="page7-date">
+        </div>
+        <img src="img/page7-logo.png" class="page7-logo">
+        <div class="arrow"></div>
+    </div>
+
+    <div class="page page-eight">
+        <img src="img/page8-bg.jpg" class="page8-bg">
+        <img src="img/page8-title.png" class="page8-title">
+        <img src="img/page7-logo.png" class="page8-logo">
+        <img src="img/yunqi-logo.png" class="yunqi-logo">
+        <div class="arrow"></div>
+    </div>
+
+</div>
+
+<div id="template">
+    <!--头像图-->
+    <div data-template-id="page4-thumbnail-item" class="page4-thumbnail-item item">
+        <img data-src="img">
+    </div>
+
+    <!--第4页内置页-->
+    <div data-template-id="page4-inner-page" class="page4-inner-page">
+        <img data-src="backgroundImg" class="page4-inner-page-bg">
+        <img data-src="intro" data-class="klass">
+        <img src="img/page7-logo.png" class="page-logo">
+    </div>
+
+</div>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+document.write( unescape( "%3Cspan id='cnzz_stat_icon_1000437618'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "w.cnzz.com/q_stat.php%3Fid%3D1000437618' type='text/javascript'%3E%3C/script%3E" ) );
+</script>
+
+<script src="../../zMobile.js"></script>
+<script src="../../zScrollPanel.js"></script>
+<script src="rsLib.js"></script>
+<script src="rs.js"></script>
+
+</body>
+</html>
