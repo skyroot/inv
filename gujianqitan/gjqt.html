@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="mobileoptimized" content="0"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="browsermode" content="application">
+    <link href="style/gjqt.css" rel=stylesheet>
+    <meta name="keywords" content="神剧冠军《古剑奇谭》爆火大揭秘——90后再成焦点"/>
+    <meta name="description" content="神剧冠军《古剑奇谭》爆火大揭秘——90后再成焦点"/>
+    <title>古剑奇谭</title>
+    <script>
+        window.dataForWeixin = {
+            picture : "http://www.cloud7.com.cn/app/gujianqitan/icon.png",
+            url : location.href,
+            desc : "神剧冠军《古剑奇谭》爆火大揭秘——90后再成焦点",
+            title : document.title
+        };
+    </script>
+    <style>
+        #layout {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow: hidden;
+            background: black;
+        }
+
+        .page, .page-init {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow: hidden;
+        }
+
+        .page-init {
+            z-index: 10;
+        }
+
+        .lock {
+            pointer-events: none;
+        }
+
+        .page img.background {
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            -webkit-transform: translate3d(-50%, 0, 0);
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="page-loading">
+    <ul class="border">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+
+<div id="layout">
+    <div class="page-init">
+    </div>
+
+    <div class="page page-zero">
+        <img src="img/page0-title.png" class="page-zero-title">
+        <img src="img/page0-logo.png" class="page-zero-logo">
+        <img src="img/page0-girl.png" class="page-zero-girl">
+        <img src="img/page0-cloud-top.png" class="page0-cloud-top">
+        <img src="img/page0-cloud-middle.png" class="page0-cloud-middle">
+        <img src="img/page0-cloud-bottom.png" class="page0-cloud-bottom">
+        <div class="arrow"></div>
+        <div class="tip">向上滑动</div>
+    </div>
+
+    <div class="page page-one">
+        <img src="img/baidu-watermark.png" class="baidu-watermark">
+        <div class="page-one-title">
+            <img src="img/page1-title.png" class="word">
+            <img src="img/page1-number.png" class="page-number">
+        </div>
+        <img src="img/page1-date-cishu.png" class="page-one-cishu">
+        <img src="img/page1-date-zhishu.png" class="page-one-zhishu">
+        <img src="img/page1-beijing.png" class="city beijing">
+        <img src="img/page1-hangzhou.png" class="city hangzhou">
+        <img src="img/page1-tianjin.png" class="city tianjin">
+        <img src="img/page1-guangzhou.png" class="city guangzhou">
+        <img src="img/page1-wenzhou.png" class="city wenzhou">
+        <img src="img/page1-suzhou.png" class="city suzhou">
+        <img src="img/page1-shenzhen.png" class="city shenzhen">
+        <img src="img/page1-shanghai.png" class="city shanghai">
+        <img src="img/page1-chongqing.png" class="city chongqing">
+        <img src="img/page1-zhengzhou.png" class="city zhengzhou">
+        <img src="img/page1-boy-girl.png" class="page-one-boy-girl">
+        <div class="arrow"></div>
+    </div>
+
+
+    <div class="page page-two">
+        <img src="img/baidu-watermark.png" class="baidu-watermark">
+        <div class="page-two-title">
+            <img src="img/page2-title.png" class="word">
+            <img src="img/page2-number.png" class="page-number">
+        </div>
+        <img src="img/page2-y.png" class="page-two-y">
+        <img src="img/page2-chart-title.png" class="page-two-chart-title">
+        <div class="date-chart">
+            <div class="scroll-content">
+                <div class="item">
+                    <img src="img/page2-queen.png" class="page-two-queen">
+                    <img src="img/page2-date.png">
+                    <img src="img/page2-thursday.png" class="page2-thursday one">
+                    <img src="img/page2-friday.png" class="page2-friday one">
+                    <img src="img/page2-monday.png" class="page2-monday one">
+                    <img src="img/page2-thursday.png" class="page2-thursday two">
+                    <img src="img/page2-friday.png" class="page2-friday two">
+                    <img src="img/page2-monday.png" class="page2-monday two">
+                </div>
+            </div>
+        </div>
+        <img src="img/page2-describe.png" class="describe">
+        <div class="arrow"></div>
+    </div>
+
+
+    <div class="page page-three">
+        <img src="img/baidu-watermark.png" class="baidu-watermark">
+        <div class="page-three-title">
+            <img src="img/page3-title.png" class="word">
+            <img src="img/page3-number.png" class="page-number">
+        </div>
+        <canvas class="pie-chart"></canvas>
+        <img src="img/page3-android.png" class="page-three-android">
+        <img src="img/page3-apple.png" class="page-three-apple">
+        <img src="img/page3-percent37.png" class="page-three-percent37">
+        <img src="img/page3-percent63.png" class="page-three-percent63">
+        <img src="img/page3-describe.png" class="page-three-describe">
+        <img src="img/page3-girl.png" class="page-three-girl">
+        <div class="arrow"></div>
+    </div>
+
+
+    <div class="page page-four">
+        <img src="img/baidu-watermark.png" class="baidu-watermark">
+        <img src="img/page4-describe.png" class="page-four-describe">
+        <div class="page-four-title">
+            <img src="img/page4-title.png" class="word">
+            <img src="img/page4-number.png" class="page-number">
+        </div>
+        <img src="img/page4-girl-head.png" class="page-four-girl-head">
+        <img src="img/page4-girl-data.png" class="page-four-girl-data">
+        <img src="img/page4-boy-head.png" class="page-four-boy-head">
+        <img src="img/page4-boy-data.png" class="page-four-boy-data">
+        <div class="arrow"></div>
+    </div>
+
+
+    <div class="page page-five">
+        <img src="img/baidu-watermark.png" class="baidu-watermark">
+        <img src="img/page5-date.png" class="page-five-date">
+        <div class="page-five-title">
+            <img src="img/page5-number.png" class="page-number">
+            <img src="img/page5-title.png" class="page5-word">
+        </div>
+        <img src="img/page5-boy.png" class="page-five-boy">
+        <img src="img/page5-girl.png" class="page-five-girl">
+        <img src="img/page5-describe.png" class="page-five-describe">
+        <div class="arrow"></div>
+    </div>
+
+
+    <div class="page page-six">
+        <img src="img/baidu-watermark.png" class="baidu-watermark">
+        <div class="page-six-title">
+            <img src="img/page6-number.png" class="page-number">
+            <img src="img/page6-title.png" class="page-word">
+        </div>
+        <img src="img/page6-talk1.png" class="page-six-one">
+        <img src="img/page6-talk2.png" class="page-six-two">
+        <img src="img/page6-talk3.png" class="page-six-three">
+        <img src="img/page6-talk4.png" class="page-six-four">
+        <img src="img/page6-talk5.png" class="page-six-five">
+        <img src="img/page6-girl.png" class="page-six-girl">
+        <div class="arrow"></div>
+    </div>
+
+
+    <div class="page page-seven">
+        <img src="img/baidu-watermark.png" class="baidu-watermark">
+        <div class="page-seven-title">
+            <img src="img/page7-number.png" class="page-number">
+            <img src="img/page7-title.png" class="word">
+        </div>
+        <img src="img/page7-left.png" class="page-seven-image">
+        <img src="img/page7-image.png" class="page7-image a">
+        <img src="img/page7-image.png" class="page7-image b">
+        <img src="img/page7-image.png" class="page7-image c">
+        <img src="img/page7-image.png" class="page7-image d">
+        <img src="img/page7-image.png" class="page7-image e">
+        <div class="arrow"></div>
+    </div>
+
+
+    <div class="page page-eight">
+        <img src="img/baidu-watermark.png" class="baidu-watermark">
+        <div class="page-eight-title">
+            <img src="img/page8-title.png" class="word">
+            <img src="img/page8-number.png" class="page-number">
+        </div>
+        <div class="banner">
+            <ul>
+                <li>
+                    <img src="img/page8-line.png" class="banner-img1">
+                    <img src="img/page8-liyifeng.png" class="page8-liyifeng">
+                    <img src="img/page8-chenweiting.png" class="page8-chenweiting">
+                    <img src="img/page8-yangmi.png" class="page8-yangmi">
+                    <img src="img/page8-zhengshuang.png" class="page8-zhengshuang">
+                    <img src="img/page8-matianyu.png" class="page8-matianyu">
+                </li>
+            </ul>
+        </div>
+        <img src="img/page8-liduohai.png" class="page8-liduohai">
+        <img src="img/page8-susu.png" class="page8-susu">
+        <img src="img/page8-lifeier.png" class="page8-lifeier">
+        <img src="img/page8-aiyou.png" class="page8-aiyou">
+        <img src="img/page8-xiaocao.png" class="page8-xiaocao">
+        <div class="arrow"></div>
+    </div>
+
+
+    <div class="page page-nine">
+        <img src="img/baidu-watermark.png" class="baidu-watermark">
+        <div class="page-nine-title">
+            <img src="img/page9-number.png" class="page-number">
+            <img src="img/page9-title.png" class="word">
+        </div>
+        <img src="img/page9-baili.png" class="page9-one">
+        <img src="img/page9-lingyue.png" class="page9-two">
+        <img src="img/page9-fanglan.png" class="page9-three">
+        <img src="img/page9-zi.png" class="page9-four">
+        <img src="img/page9-axiang.png" class="page9-five">
+        <img src="img/page9-oyang.png" class="page9-six">
+        <img src="img/page9-describe.png" class="page-nine-describe">
+        <div class="line a"></div>
+        <div class="line b"></div>
+        <div class="line c"></div>
+        <div class="line d"></div>
+        <div class="line e"></div>
+        <div class="arrow"></div>
+        <img src="img/page9-lip2.png" class="page-nine-lip0">
+        <img src="img/page9-lip1.png" class="page-nine-lip1">
+        <img src="img/page9-lip2.png" class="page-nine-lip2">
+        <img src="img/page9-lip1.png" class="page-nine-lip3">
+        <img src="img/page9-lip1.png" class="page-nine-lip4">
+    </div>
+
+    <div class="page page-ten">
+        <div class="page-ten-title">
+            <img src="img/page10-title.png" class="page10-title">
+            <img src="img/page10-no.png" class="page-ten-no">
+        </div>
+        <a id="app-url">
+            <img src="img/page10-logo.png" class="page-ten-logo">
+        </a>
+        <img src="img/page10-fenxiang.png" class="page-ten-share">
+        <img src="img/yunqi-logo.png" class="yunqi-logo">
+        <div class="arrow"></div>
+    </div>
+
+    <div id="template">
+    </div>
+</div>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+document.write( unescape( "%3Cspan id='cnzz_stat_icon_1000437618'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "w.cnzz.com/q_stat.php%3Fid%3D1000437618' type='text/javascript'%3E%3C/script%3E" ) );
+</script>
+
+<script src="../../zMobile.js"></script>
+<script src="../../zScrollPanel.js"></script>
+<script src="js/easingTable.js"></script>
+<script src="js/wqChart.js"></script>
+<script src="js/gjqtLib.js"></script>
+<script src="js/gjqt.js"></script>
+
+</body>
+</html>
