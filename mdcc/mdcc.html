@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="mobileoptimized" content="0"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="browsermode" content="application">
+    <link href="style/mdcc.css?v=20141029" rel=stylesheet>
+    <meta name="keywords" content="MDCC 2014 你就是主角！"/>
+    <meta name="description" content="mdcc"/>
+    <title>MDCC 2014 你就是主角！</title>
+    <script>
+        window.dataForWeixin = {
+            picture : "http://www.cloud7.com.cn/app/mdcc/icon.jpg",
+            url : location.href,
+            desc : "MDCC 2014移动开发者大会",
+            title : document.title
+        };
+    </script>
+    <style>
+        #layout {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow: hidden;
+            background: black;
+        }
+
+        .page, .page-init {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            overflow: hidden;
+        }
+
+        .page-init {
+            z-index: 10;
+        }
+
+        .lock {
+            pointer-events: none;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<audio loop></audio>
+<img src="img/music.gif" class="music-logo">
+<div class="page-loading">
+    <ul class="border">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+
+<div id="layout">
+
+    <div class="page page-one">
+        <img src="img/page1-word.jpg" class="page1-word">
+        <img src="img/page1-boy.jpg" class="page1-boy">
+        <img src="img/page1-girl.jpg" class="page1-girl">
+        <div class="arrow"></div>
+    </div>
+
+
+    <div class="page page-two">
+        <img src="img/page2-boy.jpg" class="page2-boy">
+        <img src="img/page2-word.jpg" class="page2-word">
+        <img src="img/page2-girl.jpg" class="page2-girl">
+    </div>
+
+
+    <div class="page page-three">
+        <img src="img/page3-logos.jpg" class="page3-logos">
+        <img src="img/page3-ab.jpg" class="page3-ab">
+        <img src="img/page3-word.jpg" class="page3-word">
+        <img src="img/page3-address.jpg" class="page3-address">
+        <img src="img/page3-people.jpg" class="page3-people">
+    </div>
+
+
+    <div class="page page-four">
+        <img src="img/page4-title.jpg" class="page4-title">
+        <img src="img/page4-date.jpg?v=123" class="page4-date">
+        <img src="img/page4-people.jpg" class="page4-people">
+    </div>
+
+
+    <div class="page page-five">
+        <img src="img/page5-title.jpg" class="page5-title">
+        <img src="img/page5-word.jpg" class="page5-word">
+        <img src="img/page5-people.jpg" class="page5-people">
+    </div>
+
+
+    <div class="page page-six">
+        <div class="page6-thumbnail">
+            <div class="scroll-content">
+            </div>
+        </div>
+        <div class="page6-arrow-left"></div>
+        <div class="page6-arrow-right"></div>
+        <img src="img/page6-people.gif" class="page6-people">
+    </div>
+
+
+    <div class="page page-seven">
+        <img src="img/page7-title.jpg" class="page7-title">
+        <img src="img/page7-word.jpg" class="page7-word">
+        <img src="img/page7-people.jpg" class="page7-people">
+    </div>
+
+
+    <div class="page page-eight">
+        <div class="page8-thumbnail">
+            <div class="scroll-content">
+            </div>
+        </div>
+        <div class="page8-arrow-left"></div>
+        <div class="page8-arrow-right"></div>
+        <img src="img/page8-people.gif" class="page8-people">
+        <img src="img/page8-baidu.gif" class="page8-baidu">
+        <img src="img/page8-domob.gif" class="page8-domob">
+        <img src="img/page8-linekong.gif" class="page8-linekong">
+        <img src="img/page8-yonyou.gif" class="page8-yonyou">
+        <img src="img/page8-umeng.gif" class="page8-umeng">
+        <img src="img/page8-medntek.gif" class="page8-medntek">
+        <img src="img/page8-deng.gif" class="page8-deng">
+        <img src="img/page8-csdn.gif" class="page8-csdn">
+        <img src="img/page8-fb.gif" class="page8-fb">
+        <img src="img/page8-microsoft.gif" class="page8-microsoft">
+        <img src="img/page8-gaode.gif" class="page8-gaode">
+        <img src="img/page8-vungle.gif" class="page8-vungle">
+        <img src="img/page8-umeng.gif" class="page8-umeng">
+    </div>
+
+
+    <div class="page page-nine">
+        <img src="img/page9-title.jpg" class="page9-title">
+        <img src="img/page9-word.jpg" class="page9-word">
+        <img src="img/page9-people.jpg" class="page9-people">
+    </div>
+
+    <div class="page page-ten">
+        <div class="page10-thumbnail">
+            <div class="scroll-content">
+            </div>
+        </div>
+        <div class="page10-arrow-left"></div>
+        <div class="page10-arrow-right"></div>
+        <img src="img/page10-people.jpg" class="page10-people">
+    </div>
+
+    <div class="page page-eleven">
+        <div class="page-eleven-border">
+            <img src="img/page11-word.gif" class="page11-word">
+            <img src="img/page11-boy.jpg" class="page11-boy">
+            <img src="img/page11-girl.jpg" class="page11-girl">
+        </div>
+        <img src="img/page11-href.jpg" class="page11-href">
+        <div class="page11-border">
+            <img src="img/yunqi-logo.png" class="yunqi-logo">
+            <img src="img/tang-logo.png" class="tang-logo">
+        </div>
+    </div>
+
+</div>
+
+<div id="template">
+    <!--第6、8、10页上方图片展示-->
+    <div data-template-id="page-thumbnail-item" class="page-thumbnail-item item">
+        <img data-src="img">
+    </div>
+</div>
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+document.write( unescape( "%3Cspan id='cnzz_stat_icon_1000437618'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "w.cnzz.com/q_stat.php%3Fid%3D1000437618' type='text/javascript'%3E%3C/script%3E" ) );
+</script>
+
+<script src="../../zMobile.js?v=20141029"></script>
+<script src="../../zScrollPanel.js?v=20141029"></script>
+<script src="js/easingTable.js?v=20141029"></script>
+<script src="js/mdccLib.js?v=20141029"></script>
+<script src="js/mdcc.js?v=20141029"></script>
+</body>
+</html>
